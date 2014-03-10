@@ -44,9 +44,9 @@
 <meta name="description" content="A layout example that shows off a responsive product landing page.">
 <?php
     if($devspace) {
-        echo '<title>Is Devspace Open?';
+        echo '<title>Is Devspace Open?</title>';
     } else {
-        echo '<title>Is Socs Office Open?';
+        echo '<title>Is Socs Office Open?</title>';
     }
 ?>
 
