@@ -92,13 +92,7 @@
 
 </head>
 <body>
-<?php
-    if($devspace) {
-        echo '<h1>Devspace is:</h1>';
-    } else {
-        echo '<h1>Socs Office is:</h1>';
-    }
-?>
+
 
 
 
@@ -110,6 +104,13 @@
 
 <div class="splash-container <?php echo $css; ?>">
     <div class="splash">
+<?php
+    if($devspace) {
+        echo '<h1 style="color:white">Devspace is:</h1>';
+    } else {
+        echo '<h1 style="color:white">Socs Office is:</h1>';
+    }
+?>
         <h1 class="splash-head"><?php echo $open; ?></h1>
         <p class="splash-subhead">
 <?php echo $timesincestring; ?>
