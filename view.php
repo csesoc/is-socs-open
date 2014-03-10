@@ -42,8 +42,13 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="A layout example that shows off a responsive product landing page.">
-
-    <title>Is CSESoc Open?</title>
+<?php
+    if($devspace) {
+        echo '<title>Is Devspace Open?';
+    } else {
+        echo '<title>Is Socs Office Open?';
+    }
+?>
 
     
 
@@ -87,7 +92,13 @@
 
 </head>
 <body>
-
+<?php
+    if($devspace) {
+        echo '<h1>Devspace is:</h1>';
+    } else {
+        echo '<h1>Socs Office is:</h1>';
+    }
+?>
 
 
 
